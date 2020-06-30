@@ -7,7 +7,6 @@ from flaskblog.forms import RegistrationForm, LoginForm, UpdateAccountForm
 from flaskblog.models import User, Post
 from flask_login import login_user, current_user, logout_user, login_required
 
-
 posts = [
     {
         'author': 'Person 1',
@@ -67,7 +66,6 @@ def login():
 def logout():
     logout_user()
     return redirect(url_for('home'))
-
 
 def save_picture(form_picture):
     random_hex = secrets.token_hex(8)
