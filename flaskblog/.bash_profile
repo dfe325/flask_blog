@@ -1,3 +1,3 @@
-export EMAIL_USER="9acresolutions@gmail.com"
-export EMAIL_PASS="northwe$tern.2"
+export EMAIL_USER="bubbabigboitest@gmail.com"
+export EMAIL_PASS="21363252020"
 
